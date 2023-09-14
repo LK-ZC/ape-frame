@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <parent>
+        <artifactId>ape-gof-23</artifactId>
+        <groupId>com.jingdianjichi</groupId>
+        <version>1.0.0-SNAPSHOT</version>
+    </parent>
+    <modelVersion>4.0.0</modelVersion>
+    <packaging>pom</packaging>
+    <description>行为型模式</description>
+
+    <artifactId>ape-03-behaviour</artifactId>
+    <modules>
+        <module>ape-behaviour-01-template</module>
+        <module>ape-behaviour-02-strategy</module>
+        <module>ape-behaviour-03-command</module>
+        <module>ape-behaviour-04-chain</module>
+        <module>ape-behaviour-05-state</module>
+        <module>ape-behaviour-06-observer</module>
+        <module>ape-behaviour-07-mediator</module>
+        <module>ape-behaviour-08-iterator</module>
+        <module>ape-behaviour-09-visitor</module>
+        <module>ape-behaviour-10-memento</module>
+        <module>ape-behaviour-11-interpreter</module>
+    </modules>
+
+    <properties>
+        <maven.compiler.source>8</maven.compiler.source>
+        <maven.compiler.target>8</maven.compiler.target>
+    </properties>
+
+    <dependencies>
+
+    </dependencies>
+
+</project>
